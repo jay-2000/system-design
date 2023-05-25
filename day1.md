@@ -6,3 +6,5 @@ Neetcode YouTube Video
 key take aways
 
 - vertical scaling - add more resource to scale your app's server (To increase the RAM & CPU)
+
+![vertical scaling](./images/verticalScaling.jpg)
