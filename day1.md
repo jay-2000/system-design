@@ -5,6 +5,19 @@ Neetcode YouTube Video
 
 key take aways
 
-- vertical scaling - add more resource to scale your app's server (To increase the RAM & CPU)
+- Vertical Scaling - add more resource to scale your app's server (To increase the RAM & CPU).very easy to perform but very limited from resource POV.
 
 ![vertical scaling](./images/verticalScaling.jpg)
+
+<hr>
+
+- Horizontal Scaling - add more machine power by creating replicas.it also add redundancy and fault tolerant.
+
+![Horizontal scaling](./images/horizontal%20scaling.jpg)
+
+<hr>
+
+- load balancer - Horizonatal scaling eliminates single point of failure since its complicated, so how to ensure that one server is over loaded and other one is idle. so it is done with the help of load balance which is just a server which is a reverse proxy it directs incoming requests to appropriate server.
+
+
+![loadBalancer](./images/loadBalancer.jpg)
