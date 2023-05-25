@@ -17,7 +17,7 @@ key take aways
 
 <hr>
 
-- load balancer - Horizonatal scaling eliminates single point of failure since its complicated, so how to ensure that one server is over loaded and other one is idle. so it is done with the help of load balance which is just a server which is a reverse proxy it directs incoming requests to appropriate server.
+- load balancer - Horizonatal scaling eliminates single point of failure since its complicated, so how to ensure that one server is over loaded and other one is idle. so it is done with the help of load balance which is just a server which is a reverse proxy it directs incoming requests to appropriate server. with the help of round robin or hashing or any other techniques.
 
 
 ![loadBalancer](./images/loadBalancer.jpg)
